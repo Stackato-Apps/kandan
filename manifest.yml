@@ -1,0 +1,10 @@
+applications:
+- name: kandan
+  mem: 256M
+  services:
+    ${name}-db:
+      type: postgresql
+  stackato:
+    hooks:
+      post-staging:
+      - rake db:migrate kandan:bootstrap
