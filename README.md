@@ -27,6 +27,12 @@ These are features that work out of the box on any provider:
 Deployment
 ==========
 
+To deploy to Stackato
+
+```
+stackato push -n
+```
+
 See [DEPLOY.md](https://github.com/kandanapp/kandan/blob/master/DEPLOY.md) for information on deploying.
 
 
