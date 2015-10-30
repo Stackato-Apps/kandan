@@ -27,7 +27,7 @@ These are features that work out of the box on any provider:
 Deployment
 ==========
 
-To deploy to Stackato
+To deploy to HPE Helion Stackato
 
 ```
 stackato push -n
