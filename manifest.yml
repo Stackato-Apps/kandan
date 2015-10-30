@@ -1,6 +1,6 @@
 applications:
 - name: kandan
-  mem: 256M
+  memory: 256M
   services:
     ${name}-db:
       type: postgresql
